@@ -1,5 +1,5 @@
 -- Zelda Mystery of Solarus DX:
--- English dialogs
+-- Chinese(Simplified) dialogs
 
 -- ****** Contributors ******
 -- Please add your name to this list if you helped.
@@ -10,6 +10,14 @@
 -- * JeFF
 -- * rypervenche
 -- * sundae
+
+-- ****** Syntax of this file ******
+-- If you want to translate the game, only translate the "text"
+-- property of each dialog and leave other properties unchanged.
+-- The meaning of all properties is specified at the end of this file
+-- if you are interested.
+-- See also http://www.solarus-games.org/doc/latest/translation.html
+-- for general translation instructions.
 
 -- ****** Please respect the limit of each line! ******
 -- 23 chars for normal lines,
@@ -51,7 +59,7 @@ dialog{
   icon = 1,
   skip = "all",
   text = [[
-使用炸弹抵抗敌人和
+使用炸弹对付敌人或
 摧毁障碍。
 ]]
 }
@@ -63,7 +71,7 @@ dialog{
   icon = 2,
   skip = "all",
   text = [[
-你没有剩余的箭矢。
+没有剩余的箭矢了！
 ]]
 }
 --------------------
@@ -74,8 +82,7 @@ dialog{
   icon = 3,
   skip = "all",
   text = [[
-射出箭矢去击败
-顽强的敌人。
+射翻敌人。
 ]]
 }
 --------------------
@@ -87,7 +94,7 @@ dialog{
   skip = "all",
   text = [[
 使用回旋镖固定敌人
-和拾起远处的物品。
+或拾起远处的物品。
 ]]
 }
 --------------------
@@ -98,8 +105,9 @@ dialog{
   icon = 35,
   skip = "all",
   text = [[
-用超级回旋镖固定敌人
-和拾起远处的物品。
+使用超级回旋镖固定
+敌人或拾起远处的物
+品。
 ]]
 }
 --------------------
@@ -111,8 +119,8 @@ dialog{
   skip = "all",
   text = [[
 使用油灯照亮黑暗
-和点燃火炬，但是
-注意你的魔力。·
+或点燃火炬，需要
+消耗魔力！
 ]]
 }
 --------------------
@@ -147,10 +155,8 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-你的魔瓶充满了水，
-
-在合适的地点
-使用它...
+你的魔瓶充满了水。
+在合适的地点使用它...
 ]]
 }
 --------------------
@@ -295,9 +301,9 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-你的魔瓶装满了水,
+你的魔瓶装满了水，
 
-在合适的地点使用.
+在合适的地方用它...
 ]]
 }
 --------------------
@@ -368,9 +374,9 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-你的魔瓶装满了水,
+你的魔瓶装满了水，
 
-在合适的地点使用.
+在合适的地方用它...
 ]]
 }
 --------------------
@@ -430,8 +436,9 @@ dialog{
   icon = 13,
   skip = "all",
   text = [[
-天马之靴让你快速奔跑。
-按住动作键不放开始。
+穿上天马靴，根本停
+不下来。
+按住动作键不放开跑。
 ]]
 }
 --------------------
@@ -456,8 +463,8 @@ dialog{
   skip = "all",
   next = "_warning_magic",
   text = [[
-创造方块使你用飞爪
-到达它.
+制造一个方块，然后
+用飞爪把自己带过去。
 ]]
 }
 --------------------
@@ -468,9 +475,7 @@ dialog{
   icon = 16,
   skip = "all",
   text = [[
-Eat Apples to
-recover Hearts.
-吃苹果能恢复生命.
+吃苹果恢复生命.
 ]]
 }
 --------------------
@@ -505,8 +510,8 @@ dialog{
   icon = 19,
   skip = "all",
   text = [[
-岩之钥,但是正确的
-锁在哪?
+岩之钥！
+但是锁在哪?
 ]]
 }
 --------------------
@@ -529,8 +534,8 @@ dialog{
   icon = 21,
   skip = "all",
   text = [[
-地之钥,允许你进入
-村庄的洞穴.
+土之钥。用它进入村庄里的
+洞穴。
 ]]
 }
 --------------------
@@ -587,7 +592,7 @@ dialog{
   icon = 26,
   skip = "all",
   text = [[
-用这些脚蹼在深水处
+穿上脚蹼可在深水处
 游泳.
 ]]
 }
@@ -611,8 +616,9 @@ dialog{
   icon = 28,
   skip = "all",
   text = [[
-铁之钥,确定在正确的
-锁里使用它!
+铁之钥。
+确定在正确的锁里使
+用它!
 ]]
 }
 --------------------
@@ -660,8 +666,8 @@ dialog{
   icon = 32,
   skip = "all",
   text = [[
-这些铁手套能使你
-举起岩石.
+戴上铁手套，你就可以举起
+岩石。
 ]]
 }
 --------------------
@@ -683,8 +689,8 @@ dialog{
   icon = 34,
   skip = "all",
   text = [[
-找全三火石并带它们
-去地狱.
+找到三个火石并带着
+它们去地狱。
 ]]
 }
 --------------------
@@ -704,9 +710,8 @@ dialog{
   icon = 0,
   skip = "all",
   text = [[
-你发现羽毛!$0 去
-在适当的地方跳跃和
-越过障碍!
+你发现羽毛!$0 用它
+跃过障碍!
 ]]
 }
 --------------------
@@ -716,9 +721,8 @@ dialog{
   id = "_treasure.bow.1",
   icon = 2,
   text = [[
-发现弓!$0找一些箭矢
-你将有能力从远处击败
-顽强的敌人!
+发现弓！$0配合箭矢，你可以
+从远处射倒难以靠近的敌人!
 ]]
 }
 --------------------
@@ -729,8 +733,8 @@ dialog{
   id = "_treasure.bow.2",
   icon = 3,
   text = [[
-发现弓! $0
-你能从远处攻击敌人!
+发现弓！$0你可以从远处射倒
+难以靠近的敌人!
 ]]
 }
 --------------------
@@ -740,11 +744,10 @@ dialog{
   id = "_treasure.boomerang.1",
   icon = 4,
   text = [[
-发现回旋镖!$0 你能
-固定敌人和捡起远处
-的物品,有几种使用
-它的方法,取决于你
-全部发现它们!
+发现回旋镖！$0 你能固定
+敌人或捡起远处的物品。
+使用它的方法有好几种，试
+着掌握它！
 ]]
 }
 --------------------
@@ -795,9 +798,8 @@ dialog{
   id = "_treasure.bottle_1.1",
   icon = 7,
   text = [[
-你发现一个魔瓶!$0
-
-用各种物品装满它.
+你得到一个魔瓶!$0
+可用它装各种各样的物体。
 ]]
 }
 --------------------
@@ -1130,8 +1132,8 @@ dialog{
   id = "_treasure.apple.1",
   icon = 16,
   text = [[
-你发现三个苹果!$0
-吃了它们后去恢复生命!
+你得到三个苹果！$0
+吃了它们恢复生命！
 ]]
 }
 --------------------
@@ -1141,10 +1143,8 @@ dialog{
   id = "_treasure.pain_au_chocolat.1",
   icon = 17,
   text = [[
-你发现一个巧克力
-羊角面包!$0
-
-吃了它恢复少许生命.
+你得到一个巧克力羊角面包！$0
+吃了它恢复少许生命。
 ]]
 }
 --------------------
@@ -1154,9 +1154,9 @@ dialog{
   id = "_treasure.croissant.1",
   icon = 18,
   text = [[
-你发现羊角面包!$0
-全是酥脆的,吃了它去
-恢复生命.
+你发现一个羊角面包！$0
+真是酥脆！吃了它可以恢复
+生命。
 ]]
 }
 --------------------
@@ -1189,10 +1189,8 @@ dialog{
   id = "_treasure.clay_key.1",
   icon = 21,
   text = [[
-你发现地钥匙!$0
-
-现在你能进入村庄的
-洞穴!
+你发现土之钥！$0
+可以用它开启村庄里的洞穴！
 ]]
 }
 --------------------
@@ -1336,9 +1334,8 @@ dialog{
   id = "_treasure.glove.1",
   icon = 32,
   text = [[
-你发现铁手套!$0
-
-用这些你能举起岩石.
+你发现铁手套！$0
+戴着它你可以举起岩石。
 ]]
 }
 --------------------
@@ -1371,9 +1368,9 @@ dialog{
   id = "_treasure.world_map.1",
   icon = 50,
   text = [[
-你发现世界地图!$0
+你发现世界地图！$0
 
-在地图界面看它.
+地图功能已经开启。
 ]]
 }
 --------------------
@@ -1498,10 +1495,8 @@ dialog{
   id = "_treasure.shield.1",
   icon = 63,
   text = [[
-你发现护盾!$0
-
-你能从敌人的攻击中
-保护自己!
+你发现护盾！$0
+用它保护自己不受攻击！
 ]]
 }
 --------------------
@@ -1536,10 +1531,9 @@ dialog{
   id = "_treasure.sword.1",
   icon = 66,
   text = [[
-你发现勇气之剑!$0
+你发现勇气之剑！$0
 
-你能交锋和面对
-你的敌人!
+用它打败敌人！
 ]]
 }
 --------------------
@@ -1608,8 +1602,8 @@ dialog{
   id = "_treasure.map.1",
   icon = 70,
   text = [[
-你发现地图!用它
-去看地牢的布局.
+你发现地图！用它可以看到
+迷宫的结构。
 ]]
 }
 --------------------
@@ -1619,11 +1613,10 @@ dialog{
   id = "_treasure.compass.1",
   icon = 71,
   text = [[
-你发现指南针!现在你能
-从地图中看你的位置,
-箱子的位置,同样老怪的
-藏身处!现在我们正在
-到达一些地方!
+你发现指南针！能让你在地
+图中看到你的位置、箱子的
+位置以及老怪的藏身处!现
+在我们在哪？
 ]]
 }
 --------------------
@@ -1633,10 +1626,9 @@ dialog{
   id = "_treasure.small_key.1",
   icon = 72,
   text = [[
-你发现小钥匙!
-
-这个钥匙会打开这地牢
-中一扇锁着的门.
+你发现小钥匙！
+这个钥匙会打开迷宫中一扇
+锁着的门。
 ]]
 }
 --------------------
@@ -1646,10 +1638,9 @@ dialog{
   id = "_treasure.big_key.1",
   icon = 73,
   text = [[
-你发现大钥匙!
-
-你现在能打开特殊的门
-并找到新宝藏!
+你发现大钥匙！
+你现在能打开特殊的门并找
+到新宝藏！
 ]]
 }
 --------------------
@@ -1659,10 +1650,8 @@ dialog{
   id = "_treasure.boss_key.1",
   icon = 74,
   text = [[
-你发现老怪钥匙!
-
-现在你能进入老怪
-的躲藏处!
+你发现老怪钥匙！
+现在你能进入老怪的藏身处！
 ]]
 }
 --------------------
@@ -1672,8 +1661,7 @@ dialog{
   id = "_treasure.piece_of_heart.1",
   icon = 79,
   text = [[
-你发现一个
-心之碎片!
+你发现一个之碎片！
 ]]
 }
 --------------------
@@ -1683,10 +1671,8 @@ dialog{
   id = "_treasure.heart_container.1",
   icon = 80,
   text = [[
-你发现一个心容器!
-
-你的心显示增加了
-一个!
+你发现一个心之容器！
+你的生命上限增加了一个！
 ]]
 }
 --------------------
@@ -1849,8 +1835,8 @@ dialog{
   id = "_treasure.rupee.4",
   icon = 90,
   text = [[
-你发现50卢币!
-了不起!
+你发现50卢币！
+了不起！
 ]]
 }
 --------------------
@@ -1963,9 +1949,8 @@ dialog{
   icon = 73,
   skip = "all",
   text = [[
-嗯?锁的!
-有大钥匙的话或许能
-打开它!
+嗯？锁的！
+有大钥匙的话或许能打开它！
 ]]
 }
 --------------------
@@ -2003,11 +1988,8 @@ dialog{
   id = "_cannot_lift_too_heavy",
   skip = "all",
   text = [[
-真讨厌,这种方法
-太重了!
-
-你永远不会空手
-去解决它!
+我擦咧,真沉！
+我空手可搬不动它
 ]]
 }
 -----------------------
@@ -2042,8 +2024,7 @@ dialog{
   id = "_shop.not_enough_money",
   skip = "all",
   text = [[
-对不起,你没有
-足够的卢比!
+对不起，你没有足够的卢比！
 ]]
 }
 -----------------------
@@ -2064,8 +2045,8 @@ dialog{
   id = "_crystal",
   skip = "all",
   text = [[
-这是一个水晶按钮.
-试图用东西击打它...
+这是一个水晶开关。
+试着用东西敲它一下...
 ]]
 }
 -----------------------
@@ -2075,7 +2056,7 @@ dialog{
   id = "dungeon_1",
   skip = "current",
   text = [[
-          Lv 1
+         第一关 
           
       「森林土牢」
 ]]
@@ -2205,8 +2186,8 @@ dialog{
   id = "found_water.no_bottle",
   skip = "all",
   text = [[
-这里有一些水,但是你
-没法储存它...
+这里可以取水，但是你没器
+物乘水...
 ]]
 }
 -----------------------
@@ -2293,8 +2274,7 @@ dialog{
   id = "torch.need_lamp",
   skip = "all",
   text = [[
-一定有方法点亮
-这个火炬...
+一定有方法点亮这个火炬...
 ]]
 }
 -----------------------
@@ -2305,13 +2285,17 @@ dialog{
   skip = "current",
   text = [[
 $2
-古老的传说讲述很久以前
-有一个名为海拉尔的壮丽
-王国,在三位女神的三角
-的祝福下繁荣着.七个圣贤
-封印着三角在金土地
-世界的乌托邦影像.几个
-世纪过去.....
+有一个远古的传说：
+在很久很久以前，
+曾有名为海拉尔的壮丽王国...
+三位女神的祝佑化作三角力量，
+使海拉尔王国繁荣富足...
+七位圣贤将三角力量封印在黄
+金大陆，有如乌托邦一般...
+
+
+几个世纪过去了.....
+
 ]]
 }
 -----------------------
@@ -2321,15 +2305,16 @@ dialog{
   skip = "current",
   text = [[
 $2
-许多代后,一个邪恶的咒语
-看起来威胁着海拉尔.一个
-叫Agahnim的神秘魔法师
-击退了黑暗,受到人们的
-表扬,国王委托他一个较高
-的职位.然而事实上魔法师
-密谋反对王室,试图带回
-Ganondorf,盗贼王,从
-一个被遗忘的岁月.
+许多代以后，邪恶力量威胁着
+海拉尔。
+一个叫作阿甘尼姆的神秘法师
+击退了黑暗。
+他受到人民的拥戴，就连国王
+都请他保护海拉尔王国。
+
+然而...
+他却密谋推翻王室并企图从遗
+忘的时空带回魔王加农道夫...
 ]]
 }
 -----------------------
@@ -2340,9 +2325,8 @@ dialog{
   skip = "current",
   text = [[
 $2
-据说一个身穿绿衣的年轻人
-进行着探索,调查遗失的
-庙宇,越过平原和山谷.
+据说一个绿衣年轻人踏上征途。
+他历险探幽、履山涉川...
 ]]
 }
 -----------------------
@@ -2353,11 +2337,10 @@ dialog{
   skip = "current",
   text = [[
 $2
-最终,他被称为击退恶魔的
-英雄.感谢他的勇气,他打败
-了Ganondorf,他在金土地上
-建立了一个令人影响深刻的
-金字塔
+最终,他击退恶魔，成为英雄。
+多亏他的勇敢，他打败了那个
+在黄金大陆上建造了庞大金字
+塔的魔王——加农道夫。
 ]]
 }
 -----------------------
@@ -2368,12 +2351,10 @@ dialog{
   skip = "current",
   text = [[
 $2
-年轻的英雄希望
-Ganondorf永远被囚禁在
-金土地上.
-海拉尔之王,七个圣贤的
-后裔,用封印的魔力抛弃
-了Ganondorf.
+年轻的英雄希望将加农道夫永
+远禁锢在黄金大陆上。
+海拉尔之王——七位圣贤的后裔
+用封印之力放逐了加农道夫。
 ]]
 }
 -----------------------
@@ -2383,13 +2364,12 @@ dialog{
   skip = "current",
   text = [[
 $2
-但是数年后,海拉尔国王
-生病的没有治愈的可能,
-来自全国各地的医生
-无济于事...
-国王不在存在，
-他的力量也是.
-封印的力量再一次虚弱.
+但数年后，国王身患重病。
+举国家之医也无法治愈国
+王的病...
+国王去世后，他的法力也
+随之消失。
+封印的力量再次变弱...
 ]]
 }
 -----------------------
@@ -2400,15 +2380,15 @@ dialog{
   skip = "current",
   text = [[
 $2
-英雄在Sahasrahla的
-引导下,信任皇室权势的
-女继承人,带着女神三角
-的塞尔达公主.塞尔达与
-八个神秘儿童将三角粉碎
-成八个碎片并在王国内
-隐藏它们,和平被修复.
+英雄在师傅萨哈斯罗拉的 
+引导下，相信皇室继承者
+塞尔达公主拥有三角力量。
+她将三角力量分为八片，
+并交给八个孩子分别保管。
+王国恢复了和平。
 
-那么开始,我们的旅行...
+你的旅程就这样开始了...
+
 ]]
 }
 -----------------------
@@ -2418,7 +2398,7 @@ dialog{
   id = "outside_world.village.welcome_sign",
   text = [[
 
-    欢迎来到Lyriann
+    欢迎来到里瑞恩
     
 ]]
 }
@@ -2432,11 +2412,10 @@ dialog{
   id = "outside_world.village.monkey",
   next = "_unknown",
   text = [[
-救命!今晚大家
-都很害怕!
+救命！
 
-村庄已经被怪物
-包围!
+
+村庄已经被怪物包围了！
 ]]
 }
 -----------------------
@@ -2444,9 +2423,9 @@ dialog{
 dialog{
   id = "outside_world.village.monkey.without_shield",
   text = [[
-我不知道发生了什么,
-但是如果我是你绝不会
-没有保护下离开小镇.
+我不知道发生了什么，
+但如果我是你绝不会这
+样空着手离开镇子。
 ]]
 }
 -----------------------
@@ -2455,9 +2434,9 @@ dialog{
 dialog{
   id = "outside_world.village.monkey.with_shield",
   text = [[
-我不知道发生了什么,
-但你至少带着一个
-护盾是正确的...
+我不知道发生了什么，
+但起码带个护盾是没错
+的...
 小心点!
 ]]
 }
@@ -2468,12 +2447,13 @@ dialog{
   id = "outside_world.village.grand_son_npc",
   skip = "current",
   text = [[
-如果在旅途中感到迷惑
-，你应该去见Lyly奶奶
-，她热爱给建议和引导
-冒险者.她住在卢币屋
-旁边.其他的我不知道,
-我只是一个小孩!
+如果你在旅途中不知道该做
+什么了，就应该去找丽丽奶
+奶。她喜欢给人建议。她就
+住在卢币屋旁边。 
+其他的我不知道，我还是个
+小孩子！
+
 ]]
 }
 -----------------------
@@ -2483,14 +2463,15 @@ dialog{
   id = "outside_world.village.chignon_woman",
   skip = "all",
   text = [[
-当蓝色图标出现,他告诉你
-能做通过按动作键(空格)。
-取决于你正在检查什么，
-会引发几种动作如查找，
-对话，阅读路牌，举起
-瓶子...留意图标去知道
-什么时候你能与周围环境
-相互作用！
+当蓝色图标出现时，上面会
+显示“动作”键（空格）的功
+能。
+根据你所处的环境，会表现
+出几种“动作”：查看、对话、
+阅读指示牌、举起罐子等等。
+注意图标什么时候出现就能
+知道你的什么时候可与周围
+互动！
 ]]
 }
 -----------------------
@@ -2511,10 +2492,9 @@ dialog{
   id = "outside_world.village.cliff_man_npc",
   skip = "all",
   text = [[
-你知道你能跳下确定
-的悬崖吗？这或许能
-让你到达难以接近的
-地点.
+你知道有些悬崖是能跳下来
+的吗？这或许能让你到达难
+以接近的地方。
 ]]
 }
 -----------------------
@@ -2524,13 +2504,13 @@ dialog{
   id = "outside_world.village.hat_man_npc",
   skip = "all",
   text = [[
-如果你需要卢币，我建议
-你不要去卢币屋，因为你
-或许以需要更多的卢币
-告终！虽然，你做的
-看起来比我聪明。
-
-或许你做的比我更好!
+如果你急需赚卢币，我建议
+你千万不要去那个该死的卢
+币屋，否则它很可能让你把
+仅有的一点老本赔在那！虽
+然，你看起来是比我机灵个
+那么一点点。
+或许你做的比我好!
 ]]
 }
 -----------------------
@@ -2566,10 +2546,8 @@ dialog{
 dialog{
   id = "outside_world.village.waterfall_sign",
   text = [[
-请随意将我们新鲜的
-春水带回家。
-
-      Lyriann
+掬一钵甘泉，随君归。
+       里瑞恩
       旅游中心
 ]]
 }
@@ -2580,7 +2558,7 @@ dialog{
   id = "outside_world.village.cake_shop_sign",
   text = [[
 
-         面包店
+         面包房
 ]]
 }
 -----------------------
@@ -2600,8 +2578,7 @@ dialog{
   id = "outside_world.village.letter_box",
   skip = "all",
   text = [[
-不要开始调查
-不是你的东西！
+不要偷看不是你的信！
 ]]
 }
 -----------------------
@@ -2612,8 +2589,8 @@ dialog{
   skip = "all",
   next = "outside_world.village.tree_woman.long_text",
   text = [[
-你对状态显示感到疑惑？
-让我解释，
+你不明白什么是HUD吗？
+我来告诉你：
 ]]
 }
 -----------------------
@@ -2624,25 +2601,28 @@ dialog{
   next = "outside_world.village.tree_woman.thank_you",
   next2 = "outside_world.village.tree_woman.again",
   text = [[
-左边的一行的图标如键盘
-上的按键,C键是绿色图标
-你能使用剑通过按它.但是
-当游戏暂停,图标改变告诉
-你是用来储存游戏!
-并且当你与某人谈话,它
-允许你结束一段对话,仅仅
-留意icon告诉你C键能做
-什么.
-其他图标围绕着C键,橙色
-(D键)暂停游戏,蓝色图标
-(空格键)是动作键,两个
-灰色按钮表示道具能分配
-到X键和V键.所以总是
-留意图标说什么.不要
-忘记你能在选择屏幕(D
-键)里自定义按键甚至用
-一个游戏手柄!
-你全记住了吗?
+左上方的图标是根据键盘的
+样子排列的。绿色图标代表
+C键，按它可以挥剑。当游
+戏暂停时，按它可以保存游
+戏。当你与他人对话时，按
+C还可以跳过对话。只需要
+看看C键的图标就知道它当
+前的功能是什么。其他的图
+标是C键周围的按键：桔色
+的D键可以暂停游戏，蓝色
+的空格是“动作”键。另两个
+灰色的图标代表X键和V键，
+可以把道具分配到这两个按
+键上。所以要想知道哪个按
+键的功能是什么，只需要看
+看它的图标就行了。
+别忘了还可以在选项菜单中
+自定义按键功能，还可以用
+手柄玩游戏哦！
+
+
+听明白了吗?
 是
 没有
 ]]
@@ -2653,8 +2633,8 @@ dialog{
   id = "outside_world.village.tree_woman.again",
   next = "outside_world.village.tree_woman.long_text",
   text = [[
-好吧,让我在此解释,但是
-这次仔细听.
+好吧，我再解释一次，但是
+这次得听仔细了。
 ]]
 }
 -----------------------
@@ -2662,9 +2642,9 @@ dialog{
 dialog{
   id = "outside_world.village.tree_woman.thank_you",
   text = [[
-感谢你对整个解释的聆听
-我真的感激，你应得这份
-小礼物。
+多谢你能听完全部解释！
+我真开心！
+来，送你一份小礼物。
 ]]
 }
 -----------------------
@@ -2673,7 +2653,7 @@ dialog{
 dialog{
   id = "outside_world.village.clay_key_required",
   text = [[
-它是锁的!
+门锁上了！
 ]]
 }
 -----------------------
@@ -2713,7 +2693,7 @@ dialog{
 dialog{
   id = "outside_world.telepathic_booth_sign",
   text = [[
-    电话亭
+    心灵感应屋
 ]]
 }
 -----------------------
@@ -2744,9 +2724,9 @@ Billy the Reckless的
 dialog{
   id = "outside_world.beaumont_hill_sign",
   text = [[
-在Beaumont丘陵顶上种
-一朵雪绒花的人将会
-有美好的一天.
+谁要是把雪绒花种在博蒙特
+山丘顶上，谁就能收获美好
+的一天。
 ]]
 }
 -----------------------
@@ -2821,9 +2801,9 @@ dialog{
   text = [[
 ... $v...
 是我...
-... Sahasrahla...
+...萨哈斯罗拉...
 我有...要说...
-快点来...$v...
+快来...$v...
 ]]
 }
 -----------------------
@@ -2833,10 +2813,10 @@ dialog{
   id = "rupee_house.game_1.intro",
   question = true,
   text = [[
-欢迎来到奇异的箱子
-游戏,付20卢币打开
-其中一个,有机会赚
-更多的卢比!
+欢迎，欢迎，来玩神奇箱子
+赚大钱！20卢币一次，打开
+三个箱子中的一个，就有机
+会赚更多的卢币！
 玩
 不玩
 ]]
@@ -2847,10 +2827,9 @@ dialog{
 dialog{
   id = "rupee_house.game_1.choose_chest",
   text = [[
-快点选择一个箱子!
-
-别盯着我，我不会告诉
-你选择哪一个！
+快去选择一个箱子！
+别盯着我，我才不会告诉你
+哪里有大奖！
 ]]
 }
 -----------------------
@@ -2859,7 +2838,7 @@ dialog{
 dialog{
   id = "rupee_house.game_1.good_luck",
   text = [[
-祝你好远!
+祝你好运！
 ]]
 }
 -----------------------
@@ -2868,8 +2847,9 @@ dialog{
 dialog{
   id = "rupee_house.game_1.not_allowed_to_play",
   text = [[
-你不是已经赢了吗？
-我们因你而损失！
+你不是赢过了吗？也许你会
+说自己运气好，但我怀疑你
+八成用S/L大法了。亏死了！
 ]]
 }
 -----------------------
@@ -2879,7 +2859,7 @@ dialog{
   id = "rupee_house.game_1.play_again_question",
   question = true,
   text = [[
-你想再玩一次吗?
+你想再玩一次吗？
 玩
 不玩
 ]]
@@ -2894,8 +2874,7 @@ dialog{
 dialog{
   id = "rupee_house.game_1.not_playing",
   text = [[
-你不得不有更多的激情!
-享受一下生活！
+来嘛，下一注挑战一下吧？
 ]]
 }
 -----------------------
@@ -3018,7 +2997,7 @@ dialog{
   id = "rupee_house.game_2.reward.yoshi",
   text = [[
 $1...
-三个Yoshi?!
+三个耀奇？！
 难-以-置-信!
 这是最好的组合..
 你原始的赌注乘以20.
@@ -3116,8 +3095,8 @@ dialog{
 dialog{
   id = "rupee_house.pay_first",
   text = [[
-嘿!如果你想玩的话
-必须付钱!
+嘿！如果你想玩的话必须先
+付钱！
 ]]
 }
 -----------------------
@@ -3180,15 +3159,15 @@ dialog{
   id = "grandma_house.sword",
   skip = "all",
   text = [[
-怪物在潜伏在田野里,这
-不是好兆头:我确信不好
-的事情已经发生.
-你正在寻找剑吗?
-我这样的年龄,不想去
-做这样的事..你最好去
-看村庄最北的山洞里的
-blacksmith,他有点
-粗鲁但将能帮助你.
+易云：龙战于野，其血玄黄。
+在外边看到怪物可不是个好
+兆头。我敢说有些可怕的事
+情已经发生了。
+你正在寻找剑吗？我一把年
+纪了，可帮不了你...不过
+你可以去找村子西北山洞里
+的铁匠。他虽然脾气暴躁，
+但还是会帮助你的。
 ]]
 }
 -----------------------
@@ -3198,12 +3177,12 @@ dialog{
   id = "grandma_house.find_sahasrahla",
   skip = "all",
   text = [[
-用这剑,你能砍着通过
-保护村庄的灌木.你正在
-寻找Sahasrahla
-不是吗?他的房子在这
-最南方的,靠近面包点,
-你不记得吗?
+易云：贞杖人，吉，无咎。
+你可以用剑砍开围着村庄的
+灌木从。
+你要去找老萨哈斯罗拉。他
+家就在村子的西南边，面包
+房附近。你忘了吗？
 ]]
 }
 -----------------------
@@ -3213,8 +3192,11 @@ dialog{
   id = "grandma_house.go_lyriann_cave",
   skip = "all",
   text = [[
-这钥匙允许你进入村庄
-北面的洞穴.
+易云：艮。艮其背，不获其
+身。行其庭，不见其人。无
+咎。
+用土之钥可以进入村庄北面
+的洞穴。
 ]]
 }
 -----------------------
@@ -3225,9 +3207,11 @@ dialog{
   id = "grandma_house.go_dungeon_1",
   skip = "all",
   text = [[
-四个孩子之一或许被关在
-村南边的森林里的暗黑
-土牢,你还在等什么?
+易云：困，亨。贞大人吉，
+无咎。有言不信。
+那四个孩子中的一个也许就
+被关在村南森林里的幽暗迷
+宫里。你还在等什么？
 ]]
 }
 -----------------------
@@ -3237,9 +3221,10 @@ dialog{
   id = "grandma_house.go_back_sahasrahla",
   skip = "all",
   text = [[
-这次超过了我的知识,
-Sahasrahla将会是
-更好的帮助.
+易云：蒙，亨。匪我求童蒙，
+童蒙求我。
+对不起，这个问题我也不知
+道。也许萨哈斯罗拉能帮你。
 ]]
 }
 -----------------------
@@ -3312,11 +3297,10 @@ dialog{
   id = "telepathic_booth.go_sahasrahla",
   skip = "all",
   text = [[
-$v,听到我说话吗?
-我是Lyly奶奶,电话,
-有作用了!你应该拜访
-Sahasrahla,他有事
-对你说.
+$v，听到我说话吗？
+我是丽丽奶奶！心灵感应成
+功了！你该去看看萨哈斯罗
+拉，他有东西给你。
 ]]
 }
 -----------------------
@@ -3325,12 +3309,11 @@ dialog{
   id = "telepathic_booth.go_twin_caves",
   skip = "all",
   text = [[
-$v.听到我说话吗?
-是Lyly奶奶!
-电话有作用了!
-有些事告诉我南方
-森林土牢旁的两个洞穴
-有重要的宝物...
+$v，听到我说话吗？
+我是丽丽奶奶！心灵感应成
+功了！我占卜到森林迷宫南
+面的并排的两个洞穴里隐藏
+着重要的东西...
 ]]
 }
 -----------------------
@@ -3401,12 +3384,12 @@ dialog{
   id = "smith_cave.without_sword",
   question = true,
   text = [[
-我亲手锻造的青铜剑,
-你能75卢币拥有它!
-单单你的盾不会走更远.
-有兴趣吗?
-有
-没有
+嘿，小子，这是我亲手打造
+的青铜剑，只要75卢币！光
+用盾可打不倒怪兽。
+怎么样，买吗?
+买
+不买
 ]]
 }
 -----------------------
@@ -3415,8 +3398,8 @@ dialog{
 dialog{
   id = "smith_cave.with_sword",
   text = [[
-不要去弄断我的剑,因为
-我不会锻造另一个给你!
+别弄坏我的剑，我可不会再
+给你打一把的！
 ]]
 }
 -----------------------
@@ -3425,9 +3408,8 @@ dialog{
 dialog{
   id = "smith_cave.not_buying",
   text = [[
-取决于你,但是如果你
-陷入严重的麻烦别回
-这里哭泣.
+无所谓。不过要是你碰上麻
+烦可别回来找我哭鼻子。
 ]]
 }
 -----------------------
@@ -3436,8 +3418,8 @@ dialog{
 dialog{
   id = "smith_cave.not_enough_money",
   text = [[
-你正在想从我这偷窃吗?
-你没有足够的卢币!
+你打算空手套白狼吗？你的
+钱根本不够！
 ]]
 }
 -----------------------
@@ -3446,9 +3428,9 @@ dialog{
 dialog{
   id = "smith_cave.thank_you",
   text = [[
-非常感谢.挥动你的剑,按
-C键,或者按住C键准备
-一个回旋击.
+多谢惠顾。按C键挥剑。长
+按C键可蓄力，发出强力回
+旋击。
 ]]
 }
 -----------------------
@@ -3457,8 +3439,7 @@ C键,或者按住C键准备
 dialog{
   id = "lyriann_shop.salesman",
   text = [[
-欢迎,选择你想要买的
-物品.
+欢迎，选择你想要买的物品。
 ]]
 }
 -----------------------
@@ -3468,9 +3449,8 @@ dialog{
   id = "lyriann_shop.apples",
   next = "_unknown",
   text = [[
-三个新鲜今早刚摘的
-苹果,每个苹果恢复
-一颗心.
+三个今天早上刚摘的新鲜苹
+果！每个苹果恢复一颗心。
 ]]
 }
 -----------------------
@@ -3493,7 +3473,7 @@ dialog{
   id = "lyriann_shop.heart",
   next = "_unknown",
   text = [[
-现在一颗心将被用.
+补充一颗心，买完就生效。
 ]]
 }
 -----------------------
@@ -3578,12 +3558,12 @@ dialog{
   id = "cake_shop.dont_leave",
   question = true,
   text = [[
-嘿,等下!
-我正在寻找苹果烘焙
-苹果派,需要6个苹果
+英雄，留步！
+我需要些苹果做苹果派。得
+需要6个苹果。
 你想帮忙吗?
-是
-不
+好的
+不了
 ]]
 }
 -----------------------
@@ -3594,12 +3574,12 @@ dialog{
   skip = "all",
   question = true,
   text = [[
-我仍在寻找6个苹果
-烘焙超级苹果派.
-你想帮忙吗?
+我还需要6个苹果做超大苹
+果派。
 
-是
-不
+你想帮忙吗?
+好的
+不了
 ]]
 }
 -----------------------
@@ -3608,8 +3588,8 @@ dialog{
 dialog{
   id = "cake_shop.not_enough_apples",
   text = [[
-哦,你没有足够的苹果...
-以后再来..
+哦，你没有足够的苹果...
+下次记得带来...
 ]]
 }
 -----------------------
@@ -3618,8 +3598,8 @@ dialog{
 dialog{
   id = "cake_shop.no_apples",
   text = [[
-谢谢你...如果你找到
-一些,回来看我!
+谢谢你...如果你找齐了就
+来找我！
 ]]
 }
 -----------------------
@@ -3628,12 +3608,12 @@ dialog{
 dialog{
   id = "cake_shop.thank_you",
   text = [[
-噢,谢谢你,人真好!
+噢，谢谢你，你人真好！$0
 
-对不起我只有这个空瓶..
-
-这是小奖励但是我确定你
-将很好利用它.
+（得到好人卡，误）
+不过我只能回送你个空瓶...
+是小了点，不过我确定你用
+得着它。
 ]]
 }
 -----------------------
@@ -3643,25 +3623,24 @@ dialog{
   id = "sahasrahla_house.beginning",
   next = "sahasrahla_house.beginning.12",
   text = [[
-oh,$v,你听到了我的呼唤.
-我有重要的事情要说,我们
-在紧急时机.八个太阳神
-战士的孩子中的四个的被
-抓走.我感觉三角有危险.
-有人想从国王的死中获益
-并且控制女神的三角..
-谁能做这个呢？
-肯定Ganondorf和他的
-奴才们...
-七圣贤的封印由于国王
-的死虚弱.Ganon从黑暗
-世界逃出来了吗?
-我们必须不让他获得这
-力量!我能感觉到你的
-勇气,$v.你能胜任通过
-这片大陆上最危险的
-地方拯救孩子保护三角
-吗?
+哦，是$v！
+你听到了我的呼唤，我有重
+要的事对你说。我们现在的
+处境很艰难。八个选作太阳
+神战士的孩子里有四个被抓
+走了...我担心三角力量有
+危险。有人要在国王驾崩之
+际图谋不轨并窃取三角力量。
+谁能如此胆大包天？当然是
+魔王加农道夫和他的爪牙了...
+由于国王的死，七位圣贤的
+封印之力变弱了。加农道夫
+会想方设法从黑暗世界中回
+来。我们必须阻止他！我能
+感受到你的勇气，$v。
+你能救出孩子们并保护三角
+力量吗？
+
 ]]
 }
 -----------------------
@@ -3673,9 +3652,9 @@ dialog{
   next = "sahasrahla_house.beginning.thanks",
   next2 = "sahasrahla_house.beginning.insisting",
   text = [[
-保护女神的三角?
-我能胜任!
-不能
+你能吗？
+妥妥的！
+我怂了...
 ]]
 }
 -----------------------
@@ -3686,12 +3665,12 @@ dialog{
   next = "sahasrahla_house.beginning.thanks",
   next2 = "sahasrahla_house.beginning.insisting",
   text = [[
-$v,我必须坚持,你是
-我们保护王国唯一的
-希望..
+$v，我别无选择，你是王国
+唯一的希望了...
 
-好吧
-没门
+再考虑一下吧
+好吧。
+没门。
 ]]
 }
 -----------------------
@@ -3701,8 +3680,8 @@ dialog{
   id = "sahasrahla_house.beginning.thanks",
   next = "sahasrahla_house.give_world_map",
   text = [[
-我知道我能相信你的
-勇气.
+谢谢你，勇敢的孩子。我们
+就指望你了。
 ]]
 }
 -----------------------
@@ -3710,8 +3689,8 @@ dialog{
 dialog{
   id = "sahasrahla_house.give_world_map",
   text = [[
-这是一个小物品对你
-将来的旅行有用...
+这有个小东西，希望对你的
+旅程有所帮助。
 ]]
 }
 -----------------------
@@ -3720,10 +3699,10 @@ dialog{
 dialog{
   id = "sahasrahla_house.quest_accepted",
   text = [[
-你应该检查洞穴,我储存了
-一些你能用到的东西.
-不用幻想我猜,自我回到这
-有段时间了...
+你该检查一下地窖，我存了
+一些你能用着的东西。不是
+什么值钱的东西。我觉得我
+很长时间没去那了...
 ]]
 }
 -----------------------
@@ -3733,10 +3712,10 @@ dialog{
   id = "sahasrahla_house.dungeon_1_finished",
   next = "sahasrahla_house.go_grandma",
   text = [[
-做得好,你完成了森林土牢
-的挑战.在你重踏旅途之前
-回到我的洞穴,或许有
-新物品发现.
+做得好，你完成了森林迷宫
+的挑战。在你重踏旅途之前，
+再去我的地窖看看，或许能
+发现些新东西。
 ]]
 }
 -----------------------
@@ -3767,8 +3746,8 @@ dialog{
   id = "sahasrahla_house.frozen_door_advice",
   skip = "all",
   text = [[
-门冻住了?
-试图用水融化冰.
+门冻住了？
+试着用水融化冰。
 ]]
 }
 -----------------------
@@ -3779,8 +3758,8 @@ dialog{
   skip = "all",
   next = "sahasrahla_house.go_grandma",
   text = [[
-我对你有信心,勇气和智慧
-会引导你.
+我对你有信心，勇气和智慧
+将会引导你。
 ]]
 }
 -----------------------
@@ -3788,10 +3767,10 @@ dialog{
 dialog{
   id = "sahasrahla_house.go_grandma",
   text = [[
-如果你旅途中感到迷惑
-去拜访Lily奶奶,村庄的
-东面,她是一位老朋友
-知道这个地区的一切.
+如果在冒险途中你感到没有
+头绪，去拜访丽丽奶奶吧。
+她住在村子的东边，会告诉
+你关于这里的一切。
 ]]
 }
 -----------------------
@@ -3801,8 +3780,8 @@ dialog{
   id = "sahasrahla_house.frozen_door",
   skip = "all",
   text = [[
-门冻住了,一定有方法
-融化冰!
+门冻住了。一定有什么办法
+能把冰融化!
 ]]
 }
 -----------------------
@@ -3813,22 +3792,22 @@ dialog{
   question = true,
   next2 = "lyriann_cave.tom.refuse_help",
   text = [[
-你好,年轻的探索者,我是
-Tom,国王的前护卫,我不
-认为任何人能找到这里,
-你在这黑暗的洞穴里
-干吗?什么?三角有危险?
-$0如果国王仍在保护它的
-话一切就不会发生...
-你试图解决这个洞穴的迷
-吗?这个地方充满着谜语,
-宝物和危险,你看起来非常
-有勇气!请接收我的帮助..
-我失败了,我不能保护国王
-请给我一次弥补的机会!
+你好，年轻的探险者。我是
+汤姆，以前是国王的护卫。
+我想在这没人能找到我。
+你为什么来这个黑暗的洞穴？
+什么？三角力量有危险？$0
+如果有国王的保护的话这一
+切都不会发生...
+你想解开洞穴的迷题吗？这
+里到处是谜题、宝物和危险。
+你看起来非常勇敢！好吧，
+请接受我的帮助...我曾经
+失败过，没能保护我们的王。
+所以请给我弥补的机会！
+
 
 你接受我的帮助吗?
-
 接受
 不接受
 ]]
@@ -3842,10 +3821,13 @@ dialog{
   question = true,
   next2 = "lyriann_cave.tom.refuse_help",
   text = [[
-年轻的探索者,接受我的
-帮助,我失败了,我不能
-保护国王,给我一次弥补
-的机会!你愿意接受吗?
+年轻的探险者，接受我的帮
+助吧。我曾经失败过，没能
+保护我们的王。所以请给我
+弥补的机会吧！
+
+
+你愿意接受吗?
 接受
 不接受
 ]]
@@ -3858,10 +3840,10 @@ dialog{
 dialog{
   id = "lyriann_cave.tom.accept_help",
   text = [[
-谢谢你!我能借你这个,
-希望它有用,不要忘记
-完成后归还我.如果你成功
-获得心容器我将非常惊讶!
+谢谢你！我能借你这个，希
+望它有用。用完记得还给我。
+如果你能拿到心之容器我将
+非常惊讶!
 ]]
 }
 -----------------------
@@ -3870,7 +3852,7 @@ dialog{
 dialog{
   id = "lyriann_cave.tom.refuse_help",
   text = [[
-好,如你所愿.
+好吧，黯然神伤。
 ]]
 }
 -----------------------
@@ -3880,13 +3862,13 @@ dialog{
   id = "lyriann_cave.tom.not_finished",
   question = true,
   text = [[
-一切还好吗?用我的回旋镖
-战胜障碍.你需要获得一个
-掌握它的等级如果你想
-发现洞穴所有秘密..不要
-忘记回旋镖总是会飞回你
-即使你在移动!
-你想要做什么?
+用的顺手吗？用我的回旋镖
+隔空取物。如果你想解开洞
+穴所有的迷题，你得熟练掌
+握使用它的技巧。别忘了，
+就算你移动位置了，回旋标
+还是会回到你手中。
+你想要做什么？
 继续
 归还回旋镖
 ]]
@@ -3897,8 +3879,8 @@ dialog{
 dialog{
   id = "lyriann_cave.tom.gave_boomerang_back",
   text = [[
-谢谢你,再来见我
-如果你想要我帮助.
+谢谢你。如果需要帮助就再
+来找我。
 ]]
 }
 -----------------------
@@ -3907,7 +3889,7 @@ dialog{
 dialog{
   id = "lyriann_cave.tom.leaving",
   text = [[
-嘿!等等!
+喂！等等！
 ]]
 }
 -----------------------
@@ -3917,12 +3899,12 @@ dialog{
 dialog{
   id = "lyriann_cave.tom.leaving.cavern_not_finished",
   text = [[
-你已经完成探险?我不认为
-你发现每个东西...假如你
-不介意的话,我将拿回我的
-回旋镖,你需要一个技能的
-等级去死用它!再来见我
-如果你想要我帮助.
+你探险完了吗?我想你还没
+找到所有的东西...如果你
+不介意的话，我要拿回我的
+回旋标。你还没掌握使用它
+的技巧。如果你还需要我的
+帮助，就再来找我。
 ]]
 }
 -----------------------
@@ -3934,13 +3916,11 @@ dialog{
   id = "lyriann_cave.tom.cavern_finished",
   next = "lyriann_cave.tom.see_you_later",
   text = [[
-你解决了这个洞穴的迷?
-佩服!
-你像你的胆量一样
-有技巧.
-
-如果你不介意,我将拿回
-我的回旋镖.
+你解开了这个洞穴的迷题？
+佩服！看来你不光有勇气，
+也很有技巧嘛。
+如果你不介意，我将拿回我
+的回旋镖。
 ]]
 }
 -----------------------
@@ -3952,8 +3932,8 @@ dialog{
 dialog{
   id = "lyriann_cave.tom.see_you_later",
   text = [[
-如果你想,我能在你旅途中
-帮你,如果你需要的话.
+如果你希望，我能在你旅途
+困难的时候帮你一把。
 ]]
 }
 -----------------------
@@ -3963,7 +3943,7 @@ dialog{
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.hey",
   text = [[
-嘿!
+嘿！
 ]]
 }
 -----------------------
@@ -3971,7 +3951,7 @@ dialog{
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.need_help",
   text = [[
-需要帮忙吗?
+需要帮忙吗？
 ]]
 }
 -----------------------
@@ -3979,8 +3959,8 @@ dialog{
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.let_me_see",
   text = [[
-嗯,我打赌这里藏着个
-阶梯,让我们看看...
+唔...我敢打赌这里隐藏着
+个梯子，让我找找看...
 ]]
 }
 -----------------------
@@ -3989,8 +3969,8 @@ dialog{
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.open",
   text = [[
-我认为我能移动它.
-$0可不是!
+我想我能移动它。
+$0可不是！
 ]]
 }
 -----------------------
@@ -3998,8 +3978,8 @@ $0可不是!
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.finished",
   text = [[
-小心点,这里的这个东西
-看起来不吉利.
+小心点，这里看起来挺危险
+的。
 ]]
 }
 -----------------------
@@ -4008,29 +3988,25 @@ dialog{
   id = "dungeon_1.solarus_child",
   text = [[
 $2$v... 
-谢谢你救了我,我是
-八个守护者之一被
-塞尔达公主叫做forth
-我们献身于看管
-神圣的太阳神战士的
-遗物的保护物,三角
- ,三女神创世后
-留下的意志.
-经历了千年,虽然三角
-是生命的根源和繁荣,
-但也是贪婪和正义和
-邪恶间不停争斗的
-根源..
-即使今天,神圣的遗物
-任有危险.然而历史重复
-着它自己.无论哪里危险,
-总有一个英雄的勇气驱逐
-走黑暗.找到我的兄弟们,
-发现这背后的操纵者,
-在黑暗使海拉尔陷入
-混乱之前...
-或许英雄带来和平和
-繁荣给这个国度!
+谢谢你救了我，我是受塞尔
+达公主召唤的八个守护者之
+一。我们发誓要看守神圣遗
+物——三角力量。它是创世
+之后由三位女神留给人类的
+生命与繁荣之源。然而历经
+千年之后，三角力量却被邪
+恶所觊觎，并且引发了正邪
+两方之间长久的争斗。直到
+现在，神圣遗物仍处在危险
+之中。不过历史总是惊人的
+相似。不论哪里有危险，英
+雄总会挺身而出驱散黑暗。
+在黑暗力量令海拉尔王国陷
+入混乱之前，去找到我的伙
+伴，并且揪出造成这一切幕
+后黑手吧...
+愿英雄能将和平与繁荣重新
+带给海拉尔王国！
 ]]
 }
 -----------------------
@@ -5584,9 +5560,10 @@ dialog{
   text = [[
 $1 结束了 $0
 
-太阳神战士的力量永远
-消失而三角维持封印
-直到时间终结...
+太阳神战士的力量已
+永湮灭。
+三角力量将被封印直
+到永远...
 ]]
 }
 -----------------------
@@ -5668,7 +5645,7 @@ $1     测试:$0
 Thyb$0
 Morwenn$0
 BenObiWan$0
-$1   Special thanks to:$0
+$1     鸣谢:$0
 
 
 19oj19$0           Yohann$0
@@ -5686,4 +5663,126 @@ Thanks for playing!$0
 ]]
 }
 -----------------------
+
+-- ****** Full specification of dialog properties ******
+
+-- We describe here the meaning of each dialog property.
+
+-- You will be interested in this documentation
+-- if you are modifying this quest or making a
+-- quest that uses the same dialog system.
+-- If you are only translating the quest,
+-- you must not change properties other than "text".
+
+-- Remember that properties "id" and "text" are the only ones
+-- imposed by the Solarus engine.
+-- All other properties are custom, they work with
+-- the specific dialog box system of Zelda Mystery of Solarus DX.
+-- In other words, the documentation below relates to Zelda Mystery of
+-- Solarus DX (or to any other quest that uses the same dialog box system),
+-- but not to all Solarus quests.
+
+-- In Zelda Mystery of Solarus DX, a dialog has the following properties:
+--
+-- - id (string): A name identifying the dialog.
+--   The id allows the engine and the scripts to refer to the dialog whenever they
+--   want to display it.
+--   If you are translating dialogs, you must never translate the id.
+--
+-- - text (multi-line string): Contents of this dialog.
+--   If you are translating dialogs, text is the only property to translate.
+--   The text has usually several lines.
+--   The text should be enclosed between [[ and ]], which is
+--   the notation for multiline strings.
+--   In the game, it will be displayed in groups of 3 lines because the dialog box
+--   has space for 3 lines. Each group of 3 lines is called a message.
+--   There is no automatic line breaking: you have to break your lines explicitly.
+--   A line shoud not exceed the maximum number of characters that fit in the
+--   dialog box. This limit depends on the font used.
+--   To make sure you don't exceed the limit, you
+--   should use a text editor with a fixed width font and that shows the column
+--   number.
+--   Hint: you can also put a special comment (outside the string!) whose only
+--   purpose is to show the maximum line size.
+--
+-- - skip (string, optional): Defines what happens when the player
+--   tries to skip the dialog (by pressing the attack command).
+--   There are three possible values:
+--   - "none" (default): The message cannot be skipped.
+--   - "current": If the command is pressed, the current group of 3 lines
+--     is immediately shown (instead of being displayed gradually, letter by
+--     letter).
+--     This allows to get to the next message faster.
+--   - "all": The whole dialog can be skipped.
+--     The dialog box is immediataly closed and
+--     the subsequent groups of 3 lines will not be displayed at all.
+--     Use this only for non-essential dialogs that can be read again later.
+--   The value of skip takes effect applies until the dialog box is closed.
+--
+-- - icon (number, optional): displays a small image of 16x16 pixels in the
+--   dialog box.
+--   The value is a number that identifies the position of the icon in the icon
+--   image file sprites/hud/dialog_icons.png.
+--   The icon (if any) is displayed on the left of the dialog.
+--   This takes space:
+--   when an icon is shown, the whole text is shifted of 32 pixels to the right
+--   in the dialog box. Therefore, there is less space for characters.
+--   The icon remains displayed in the next message, until its value
+--   is changed or the dialog box is closed. A value of -1
+--   means that you want to remove the icon.
+--
+-- - next (string, optional): Id of the next dialog to display.
+--   If this value is not set, the dialog box is closed
+--   when the current dialog finishes.
+--
+--   During the last message (group of 3 lines) of a dialog,
+--   if next is set, then an arrow is displayed on the
+--   bottom of the dialog box to indicate that there will
+--   be at least another message after this one.
+--   If next is not set, then this arrow is replaced
+--   by a square to indicate that this message is the last one.
+--   A message having a question (see below) is always displayed
+--   with an arrow.
+--
+--   Sometimes, even if a dialog is finished, you may
+--   want to show an arrow.
+--   This is typically the case when you know that another
+--   dialog will start immediately, but you don't know which one yet
+--   (a script will decide at the last moment). In this very specific
+--   case, you can set an empty string ("") as the value of next
+--   to indicate that the dialog will be followed by another one,
+--   unknown for now.
+--   This will display the arrow instead of the square, but everything
+--   else works exactly as if the value next was not set.
+--
+-- - question (boolean, optional): If set to true, the last message
+--   (group of 3 lines) of the dialog will be displayed as a question
+--   with two choices.
+--   The first line of the message is considered as the question
+--   and the two other lines are the two possible answers.
+--   A cursor lets the player choose its answer. The cursor takes space:
+--   when there is a question, the whole text is shifted of 32 pixels to the right
+--   in the dialog box. Therefore, there is less space for characters.
+--   It is possible to have both a question and an icon: in this case, you have
+--   even less space for the text.
+--
+-- - next2 (string, optional): If there is a question, you can define this
+--   value next2. next specifies the message to show when the first answer
+--   is selected. next2 specifies the message to show when the second answer
+--   is selected.
+--   As for next, if next2 is unspecified and the player chooses
+--   the second answer, the sequence stops and the dialog box is closed.
+--
+-- There exists special characters that you can put in the text of a
+-- dialog:
+-- - $0: Makes a break of one second in the letter scrolling.
+-- - $1: Sets the letter scrolling speed to slow.
+-- - $2: Sets the letter scrolling speed to medium.
+-- - $3: Sets the letter scrolling speed to fast (default).
+--   Note that the letter scrolling speed applies until the dialog box is closed.
+-- - $v: Inserts in the text some value that is only known at runtime
+--   (for example the player's name or some money reward won in a mini-game).
+--   The $v sequence is substituted by the appropriate value. The value
+--   has to be specified at runtime by the quest programmer using the Lua API
+--   (through the info parameter of game:start_dialog()).
 

@@ -20,34 +20,35 @@ function sol.main:on_started()
   -- If there is a file called "debug" in the write directory, enable debug mode.
   debug_enabled = sol.file.exists("debug")
 
-  local solarus_logo = require("menus/solarus_logo")
-  local language_menu = require("menus/language")
-  local title_screen = require("menus/title")
+  -- local solarus_logo = require("menus/solarus_logo")
+  -- local language_menu = require("menus/language")
+  -- local title_screen = require("menus/title")
   local savegame_menu = require("menus/savegames")
 
-  -- Show the Solarus logo first.
-  sol.menu.start(self, solarus_logo)
+  ---- Show the Solarus logo first.
+  --sol.menu.start(self, solarus_logo)
 
-  -- Then the language selection menu, unless a game was started by a debug key.
-  solarus_logo.on_finished = function()
-    if self.game == nil then
-      sol.menu.start(self, language_menu)
-    end
-  end
+  ---- Then the language selection menu, unless a game was started by a debug key.
+  --solarus_logo.on_finished = function()
+  --  if self.game == nil then
+  --    sol.menu.start(self, language_menu)
+  --  end
+  --end
 
-  -- Then the title screen.
-  language_menu.on_finished = function()
-    if self.game == nil then
-      sol.menu.start(self, title_screen)
-    end
-  end
+  ---- Then the title screen.
+  --language_menu.on_finished = function()
+  --  if self.game == nil then
+  --    sol.menu.start(self, title_screen)
+  --  end
+  --end
 
-  -- Then the savegame menu.
-  title_screen.on_finished = function()
-    if self.game == nil then
-      sol.menu.start(self, savegame_menu)
-    end
-  end
+  -- -- Then the savegame menu.
+  -- title_screen.on_finished = function()
+  --   if self.game == nil then
+  --     sol.menu.start(self, savegame_menu)
+  --   end
+  -- end
+  sol.menu.start(self,savegame_menu)
 end
 
 -- Event called when the program stops.

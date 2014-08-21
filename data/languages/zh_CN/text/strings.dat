@@ -20,9 +20,9 @@ text{ key = "quest_status.caption.quiver_2", value = "大箭袋" }
 text{ key = "quest_status.caption.quiver_3", value = "超大箭袋" }
 text{ key = "quest_status.caption.world_map", value = "世界地图" }
 text{ key = "quest_status.caption.pieces_of_heart", value = "心之碎片" }
-text{ key = "quest_status.caption.tunic_1", value = "绿色信件" }
-text{ key = "quest_status.caption.tunic_2", value = "蓝色信件" }
-text{ key = "quest_status.caption.tunic_3", value = "红色信件" }
+text{ key = "quest_status.caption.tunic_1", value = "绿色护甲" }
+text{ key = "quest_status.caption.tunic_2", value = "蓝色护甲" }
+text{ key = "quest_status.caption.tunic_3", value = "红色护甲" }
 text{ key = "quest_status.caption.sword_1", value = "勇气之剑" }
 text{ key = "quest_status.caption.sword_2", value = "海拉尔之剑" }
 text{ key = "quest_status.caption.sword_3", value = "英雄之剑" }
@@ -57,8 +57,8 @@ text{ key = "inventory.caption.item.bottle_2.4", value = "魔瓶$(绿药水)" }
 text{ key = "inventory.caption.item.bottle_2.5", value = "魔瓶$(蓝药水)" }
 text{ key = "inventory.caption.item.bottle_2.6", value = "魔瓶$(精灵)" }
 text{ key = "inventory.caption.item.rock_key.1", value = "岩之匙" }
-text{ key = "inventory.caption.item.bone_key.1", value = "石之匙" }
-text{ key = "inventory.caption.item.clay_key.1", value = "地之钥" }
+text{ key = "inventory.caption.item.bone_key.1", value = "骨之匙" }
+text{ key = "inventory.caption.item.clay_key.1", value = "土之钥" }
 text{ key = "inventory.caption.item.level_4_way.1", value = "苹果派" }
 text{ key = "inventory.caption.item.level_4_way.2", value = "金条" }
 text{ key = "inventory.caption.item.level_4_way.3", value = "雪绒花" }
